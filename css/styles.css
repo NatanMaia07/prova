@@ -1,0 +1,254 @@
+.btn-registrar{
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF4F;
+    color: #fff;
+    padding: 9px 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+.container-header, .helping, .maecenas{
+    background-color: #F5F7FA;
+}
+
+.header-title, .learns-more-title, .helping-title{
+    font-size: 50px;
+    color: #4D4D4D;
+}
+
+.header-sub-title, .helping-sub-title{
+    font-size: 50px;
+    color: #4CAF4F;
+}
+
+
+/* Parte abaixo do header*/
+
+.container-ourClients-text, .container-caring-text{
+    color: #4D4D4D;
+}
+
+
+/* Container Cards*/
+
+.card-text h5{
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+.card-text img, .card-text p{
+    padding: 15px 0;
+}
+
+.card-style{
+    border-radius: 9px;
+    padding: 9px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+
+/* Container Lear More */
+
+.learn-more-container p{
+    padding: 15px 0;
+}
+
+
+/* Container Helping*/
+
+.icon-helping{
+    font-size: 45px;
+}
+
+
+/* Container Maecenas*/
+
+.maecenas h4, .maecenas h5{
+    color: #4CAF4F;
+}
+
+
+
+/* Container Image Card*/
+
+.image-card{
+    margin: 0 5rem 5rem 3rem;
+}
+
+.image-card h4{
+    color: #4CAF4F;
+    text-align: center;
+}
+
+.image-card p{
+    text-align: center;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+/* Container Pallentesque*/
+
+.pallentesque{
+    margin-top: 9rem;
+    padding: 5rem;
+    background-color: #F5F7FA
+}
+
+.pallentesque h2{
+    font-weight: bold;
+    font-size: 70px;
+    color:#263238;
+}
+
+
+.u{
+    background-color: #4CAF4F;
+}
+
+:root{
+    --color-neutral-0:#263238;
+}
+
+
+
+#footer_content{
+    background-color: var(--color-neutral-0);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+
+}
+
+.copy{
+ color: #F5F7FA;
+}
+
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_contents img{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i{
+   font-size: 1.25rem;  
+}
+
+#footer_social_media .footer-link:hover{
+    opacity: 0.8;
+}
+
+#instagram i{
+    color: #FFFFFF;
+}
+
+#globo i{
+    color: #FFFFFF;
+}
+
+#twitter i{
+    color: #FFFFFF;
+}
+
+#youtube i{
+
+    color: #FFFFFF;
+}
+
+
+#instagram{
+    background-color:#515B60;
+ 
+}
+
+
+
+#globo{
+  
+    background-color: #515B60;
+}
+
+#twitter{
+    background-color:#515B60;
+}
+#youtube{
+    background-color: #515B60;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 0..75rem;
+    list-style: none;
+}
+
+.footer_list .footer-link{
+    color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+.footer_list li h3{
+    color: #FFFFFF;
+}
+
+
+
+.footer_list .footer-link:hover{
+    color: #7f37c9;
+}
+#footer_subscribe h3 {
+    color: #FFFFFF;
+}
+
+#footer_subscribe {
+    margin-top: 2rem; /* Adicione um espaçamento superior */
+  }
+  
+  #input_group {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Adicione este estilo para centralizar os elementos horizontalmente */
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+  }
+  
+  #input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+  }
+  
+  #input_group button {
+    color: var(--color-neutral-40);
+    background-color: #FFFFFF;
+    padding: 0px 1.25rem;
+    border: none;
+    font-size: 1.125rem;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  #input_group button:hover {
+    opacity: 0.8;
+  }
+  
