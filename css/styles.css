@@ -117,7 +117,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
-
 }
 
 .copy{
@@ -218,37 +217,32 @@
 }
 #footer_subscribe h3 {
     color: #FFFFFF;
+    padding: auto;
 }
 
 #footer_subscribe {
     margin-top: 2rem; /* Adicione um espaçamento superior */
   }
-  
-  #input_group {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Adicione este estilo para centralizar os elementos horizontalmente */
-    background-color: var(--color-neutral-0);
-    border-radius: 4px;
-  }
-  
-  #input_group input {
+
+.input_group{
+    width: 270px;
+   display: flex;
+   align-items: center;
+   background-color: #515B60; 
+   border-radius: 7px;
+}
+
+.input_group input{
     all: unset;
     padding: 0.75rem;
     width: 100%;
-  }
-  
-  #input_group button {
-    color: var(--color-neutral-40);
-    background-color: #FFFFFF;
-    padding: 0px 1.25rem;
+}
+
+.input_group button{
+    background-color: #515B60;
     border: none;
+    color: #FFFFFF;
+    padding: 0px 1.25rem;
     font-size: 1.125rem;
     height: 100%;
-    cursor: pointer;
-  }
-  
-  #input_group button:hover {
-    opacity: 0.8;
-  }
-  
+}
